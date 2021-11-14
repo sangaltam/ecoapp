@@ -2,7 +2,7 @@
 body{
    
 
-    font-family: "Montserrat", sans-serif;
+    font-family: "Ubuntu", sans-serif;
 }
             /* Title */
 #title{
@@ -19,13 +19,13 @@ body{
        
 }
 .nav-link{
-    font-size: 1.2rem;
-    font-family: "Monserat-light";
+    font-size: 1.3rem;
+    font-family: "Ubuntu";
 }
 
 #monitor-img{
     transform: rotate(20deg);
-    width: 60%;
+    width: 40%;
     padding-left: 80px;
     padding-bottom: 20px;
     margin-left: 50px;
@@ -35,9 +35,11 @@ h1{
     font-size: 3rem;
     line-height: 1.5;
     margin-top: 40px;
+    padding-bottom: 40px;
 }
-.btn{
-    margin: 50px 10px 20px 10px;
+.dowloand-btn{
+    margin: 20px 0px 20px 10px;
+    padding: 20px;
 }
 .container-fluid{
     padding: 3% 15%;
@@ -74,17 +76,20 @@ h1{
 #testimonials{
     color: #fff;
     background-color: #359148;
-    padding: 5% 23% 0 23%;
+    
     text-align: center; 
 }
 .testimonials-h{
-    
-    font-size: 3rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
 }
 .profile-img{
     width: 10%;
     border-radius: 100%;
     margin: 30px;
+}
+.carousel-item{
+    padding: 5% 10%;
 }
 #sponsors{
     text-align: center;
@@ -92,9 +97,22 @@ h1{
     padding-bottom: 3%;
 }
 .sponsors-img{
-    width: 15%;
-    margin: 20px 20px 50px;
+    width: 10%;
+    margin: 20px 10px;
 }
+            /* pricing */
+.pricing-h{
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 3%;
+}
+.pricing-p{
+    font-size: 1.5rem;
+    padding-bottom: 3%;
+}            
+.pricing{
+    text-align: center;
+    padding: 5% 20% 10% 20%;
+}            
 
     
 

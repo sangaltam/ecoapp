@@ -70,8 +70,10 @@
       <div class="row">
         <div class="col-lg-6">
           <h1>Help world become more ecological</h1>
-          <button type="button" class="btn btn-outline-dark btn-lg"><i class="fab fa-google-play"></i> Dowloand</button>
-          <button type="button" class="btn btn-outline-light btn-lg"><i class="fab fa-apple"></i> Dowloand </button>
+          <button type="button" class="dowloand-btn btn btn-outline-dark btn-lg"><i class="fab fa-google-play"></i>
+            Dowloand</button>
+          <button type="button" class="dowloand-btn btn btn-outline-light btn-lg"><i class="fab fa-apple"></i> Dowloand
+          </button>
         </div>
         <div class="col-lg-6">
           <img id="monitor-img" src="images/phone.png" alt="monitors-img">
@@ -112,11 +114,45 @@
   <!--Testimonials-->
 
   <section id='testimonials'>
-    <h2 class=testimonials-h>I recommend this app for all people who care about our planet, because this app is build so
-      easy, I think
-      everyone can use it</h3>
-      <img class='profile-img' src="images/emily.jpg" alt="emily-jpgs">
-      <em>Emily, New Zeland</em>
+    <div id="testimonials-corousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2 class=testimonials-h>I recommend this app for all people who care about our planet, because this app is
+            build so
+            easy, I think
+            everyone can use it</h3>
+            <img class='profile-img' src="images/etty.jpg" alt="emily-jpgs">
+            <em>Etty, New Zeland</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class=testimonials-h>This app is so cool, I realy enjoy communicating with people from different
+            countries, who make a very big impact in the ecology</h2>
+          <img class='profile-img' src="images/john.jpg" alt="emily-jpgs">
+          <em>John, Australia</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class=testimonials-h>Me with my family, realy like this EcoApp, becouse, it gave
+            us an idea to sort rubbish, I think, we could find more good ideas in this app. </h2>
+          <img class='profile-img' src="images/marie.jpg" alt="emily-jpgs">
+          <em>Marie, Russia</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class=testimonials-h>I am interested in statistics about temperature changings in different
+            countries. I realy proud beeing part of this community.</h2>
+          <img class='profile-img' src="images/sahil.jpg" alt="emily-jpgs">
+          <em>Sahil, India</em>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonials-corousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonials-corousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
   </section>
 
 
@@ -131,29 +167,59 @@
 
   <!--Pricing-->
   <section class="pricing">
-    <h2>A Plan for every people, who one become more ecological</h2>
-    <p>You can choose more comfortable plan!</p>
-
-    <h3>Starter Pack</h3>
-    <h2>Free</h2>
-    <p>Includes ads</p>
-    <p>Basic information about statistics</p>
-    <p>Unlimited app usage</p>
-
-    <h3>Standart Pack</h3>
-    <h2>$5.99</h2>
-    <p>No ads</p>
-    <p>Access to all statistics from our specialists</p>
-    <p>Unlimited App usage</p>
-
-    <h3>Pro Pack</h3>
-    <h2>$9.99</h2>
-    <p>You have real chance to improve our world, with your brain</p>
-    <p>No ads</p>
-    <p>Access to all statistics from our specialists</p>
-    <p>Unlimited App usage</p>
+    <h2 class='pricing-h'>A Plan for every people, who want become more ecological</h2>
+    <p class=pricing-p>You can choose more comfortable plan!</p>
 
 
+    <div class="row">
+      <div class="col-md-6 col-lg-4">
+        <div class="card">
+          <div class='card-header'>
+            <h3>Starter Pack</h3>
+          </div>
+          <div class="card-body">
+            <h2>Free</h2>
+            <p>Includes ads</p>
+            <p>Basic information about statistics</p>
+            <p>Unlimited app usage</p>
+            <button type="button" class="sign-up-btn btn btn-outline-dark btn-lg btn-block">Sign Up For Free!</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>Standart Pack</h3>
+          </div>
+          <div class="card-body">
+            <h3>Standart Pack</h3>
+            <h2>$5.99/mo</h2>
+            <p>No ads</p>
+            <p>Access to all statistics from our specialists</p>
+            <p>Unlimited App usage</p>
+            <button type="button" class="sign-up-btn btn btn-dark btn-lg btn-block">Get Started!</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>Pro Pack</h3>
+          </div>
+          <div class="card-body">
+            <h3>Pro Pack</h3>
+            <h2>$9.99/mo</h2>
+            <p>You have real chance to improve our world, with your ideas</p>
+            <p>No ads</p>
+            <p>Access to all statistics from our specialists</p>
+            <p>Unlimited App usage</p>
+            <button type="button" class="sign-up-btn btn btn-dark btn-lg btn-block">Get Started!</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 </body>
 
