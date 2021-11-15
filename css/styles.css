@@ -25,12 +25,11 @@ body{
 
 #monitor-img{
     transform: rotate(20deg);
-    width: 40%;
-    padding-left: 80px;
-    padding-bottom: 20px;
-    margin-left: 50px;
+    height: 60%;
+    position: absolute;
+    right: 30%;
 }
-h1{
+.title-h{
     font-family: "Montserrat", sans-serif;
     font-size: 3rem;
     line-height: 1.5;
@@ -42,7 +41,7 @@ h1{
     padding: 20px;
 }
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 5%;
   
 }
             /* Features */
@@ -53,6 +52,11 @@ h1{
 }
 #features{
     padding: 5% 10%;
+    background-color: #fff;
+    position: relative;
+
+    
+    
 }
 .features-h3{
     line-height: 1.5rem;
@@ -111,8 +115,68 @@ h1{
 }            
 .pricing{
     text-align: center;
-    padding: 5% 20% 10% 20%;
-}            
+    padding: 5% 10% 10% 20%;
+}  
+
+            /* footer */
+
+.footer1{
+    background-color: #359148;
+    text-align: center;
+}
+.footer2{
+    background-color: #fff;
+    text-align: center;
+}
+.footer-p{
+    
+    color: #8f8f8f;
+    font-family: 'Ubuntu';
+    font-size: 1.3rem;
+}
+.footer-h{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-family: "Montserrat", sans-serif;
+}
+.btn-footer{
+    margin: 20px 0px 70px 10px;
+    padding: 20px;
+
+}
+.footer-icon{
+    padding: 3%;
+    font-size: 2rem;
+}
+
+            /* media query*/
+@media (max-width: 1200px){
+   
+    #monitor-img{
+        position: static;
+        transform: rotate(0);
+        height: 100%;
+        padding-bottom: 10%;
+    }
+    .features{
+        position: static;
+    }
+    .container-fluid{
+        padding: 0%;
+    }
+    .title-row{
+        text-align: center;
+    }
+    .col-phone{
+        height: 416px;
+    }
+    .testimonials-h{
+        font-size: 1.5rem;
+    }
+    .sponsors-img{
+        height: 40%;
+    }
+}    
 
     
 
